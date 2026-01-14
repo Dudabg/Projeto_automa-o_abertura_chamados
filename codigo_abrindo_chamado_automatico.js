@@ -544,6 +544,7 @@ GLPi.prototype.createTicket = function () {
 
 	this.data.input.type = 1; // Incidente
 	this.data.input.status = 1; // Novo
+	
 
 	var response = this.sendRequest(
 		'post',
